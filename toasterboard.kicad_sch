@@ -527,229 +527,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multiple-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "batt voltage-source cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -1698,12 +1475,6 @@
 		(uuid "4b6f8a44-6e62-42e8-8e01-51e002932289")
 	)
 	(junction
-		(at 107.95 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61f7b050-6970-486c-b2dd-3ad523289595")
-	)
-	(junction
 		(at 119.38 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1756,12 +1527,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7e53ebc-89ef-4b2d-9c2a-31a01b0e0797")
-	)
-	(junction
-		(at 107.95 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8585d72-ef8a-461f-aaf4-b71c8bb8bbff")
 	)
 	(junction
 		(at 110.49 57.15)
@@ -1913,6 +1678,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 27.94) (xy 124.46 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1beb98bb-4e38-42d1-9e57-e3637e0cf629")
+	)
+	(wire
+		(pts
 			(xy 80.01 110.49) (xy 80.01 116.84)
 		)
 		(stroke
@@ -1920,16 +1695,6 @@
 			(type default)
 		)
 		(uuid "1d5fe739-7db9-4d82-ad59-8a58d16bc8a0")
-	)
-	(wire
-		(pts
-			(xy 107.95 57.15) (xy 110.49 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "211256e4-f272-43c0-8009-242d3ad65fb8")
 	)
 	(wire
 		(pts
@@ -1980,16 +1745,6 @@
 			(type default)
 		)
 		(uuid "28e0b3bb-84a1-4e1b-b7e7-8de7a09227aa")
-	)
-	(wire
-		(pts
-			(xy 107.95 49.53) (xy 107.95 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29086806-97ae-4f87-bb8f-4c800d34a7b5")
 	)
 	(wire
 		(pts
@@ -2134,6 +1889,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 57.15) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1a267c-dea3-45c2-a5c3-bb8ac9c31884")
+	)
+	(wire
+		(pts
 			(xy 74.93 57.15) (xy 91.44 57.15)
 		)
 		(stroke
@@ -2171,16 +1936,6 @@
 			(type default)
 		)
 		(uuid "514641b2-f059-4ce2-8a57-a5706f8d439e")
-	)
-	(wire
-		(pts
-			(xy 73.66 27.94) (xy 107.95 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52275650-daec-4daa-ac7e-33abce6d64eb")
 	)
 	(wire
 		(pts
@@ -2452,16 +2207,6 @@
 			(type default)
 		)
 		(uuid "85e99f60-96ff-4d53-b03e-25a3e00413ef")
-	)
-	(wire
-		(pts
-			(xy 93.98 57.15) (xy 107.95 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e543d6-1cbc-4f69-aa26-9ddb2fe4be0f")
 	)
 	(wire
 		(pts
@@ -2755,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 124.46 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8787577-78a1-4679-a616-bff8eeb34bd5")
-	)
-	(wire
-		(pts
 			(xy 129.54 57.15) (xy 132.08 57.15)
 		)
 		(stroke
@@ -2813,16 +2548,6 @@
 			(type default)
 		)
 		(uuid "c1e7e59f-885b-4749-835f-0bec6908cdf9")
-	)
-	(wire
-		(pts
-			(xy 107.95 35.56) (xy 107.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e20a91-adbd-466b-9167-1ee52c875af1")
 	)
 	(wire
 		(pts
@@ -4187,94 +3912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 107.95 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf727b2-d0fe-4c29-a74d-02094148526c")
-		(property "Reference" "D9"
-			(at 110.49 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 110.49 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41a629b2-1f23-4040-b6b2-c7c96777ad8d")
-		)
-		(pin "1"
-			(uuid "127309dd-7a3c-4e26-aa75-2ae27b9f2cbd")
-		)
-		(instances
-			(project ""
-				(path "/c7fc340f-343d-4999-a8d2-dc9dab29da01"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 120.65 69.85 0)
 		(mirror x)
@@ -4484,76 +4121,6 @@
 			(project ""
 				(path "/c7fc340f-343d-4999-a8d2-dc9dab29da01"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery")
-		(at 107.95 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b25dd283-f8c7-473e-85d0-9ad16437a37d")
-		(property "Reference" "BT2"
-			(at 111.76 42.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9V"
-			(at 111.76 45.1484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_MPD_BA9VPC_1xPP3"
-			(at 107.95 42.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 42.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multiple-cell battery"
-			(at 107.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4b317fb-18ee-4c76-9e6a-f02958370d21")
-		)
-		(pin "1"
-			(uuid "e947c88a-cf82-44b5-bfd4-65d811a0864e")
-		)
-		(instances
-			(project ""
-				(path "/c7fc340f-343d-4999-a8d2-dc9dab29da01"
-					(reference "BT2")
 					(unit 1)
 				)
 			)
