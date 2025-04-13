@@ -3401,7 +3401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 124.46 31.75 0)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -4260,10 +4260,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "41a629b2-1f23-4040-b6b2-c7c96777ad8c")
+			(uuid "41a629b2-1f23-4040-b6b2-c7c96777ad8d")
 		)
 		(pin "1"
-			(uuid "127309dd-7a3c-4e26-aa75-2ae27b9f2cbc")
+			(uuid "127309dd-7a3c-4e26-aa75-2ae27b9f2cbd")
 		)
 		(instances
 			(project ""
@@ -4337,10 +4337,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "18c96c19-dd38-4d8f-8cac-140d3f2a9884")
+			(uuid "18c96c19-dd38-4d8f-8cac-140d3f2a9885")
 		)
 		(pin "1"
-			(uuid "524300c5-f99e-4252-83e2-fc60b4cc0590")
+			(uuid "524300c5-f99e-4252-83e2-fc60b4cc0591")
 		)
 		(instances
 			(project ""
@@ -4667,7 +4667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 134.62 31.75 0)
 			(effects
 				(font
@@ -4713,10 +4713,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "41a629b2-1f23-4040-b6b2-c7c96777ad8c")
+			(uuid "41a629b2-1f23-4040-b6b2-c7c96777ad8e")
 		)
 		(pin "1"
-			(uuid "127309dd-7a3c-4e26-aa75-2ae27b9f2cbc")
+			(uuid "127309dd-7a3c-4e26-aa75-2ae27b9f2cbe")
 		)
 		(instances
 			(project ""
@@ -5014,10 +5014,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "18c96c19-dd38-4d8f-8cac-140d3f2a9884")
+			(uuid "18c96c19-dd38-4d8f-8cac-140d3f2a9886")
 		)
 		(pin "1"
-			(uuid "524300c5-f99e-4252-83e2-fc60b4cc0590")
+			(uuid "524300c5-f99e-4252-83e2-fc60b4cc0592")
 		)
 		(instances
 			(project ""
